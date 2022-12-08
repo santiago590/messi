@@ -73,14 +73,20 @@ font-size: 50px;
     padding: 20px;
 }
 
+.article-info img:hover{
+    transform: scale(1.2);
+}
 
 /*index*/
-.inicio-fondo {
-    background-image: url(../img/Messi.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
 
+.contacto-fondo{
+background-image: url(../img/Messi\ modificado.jpg);
+background-repeat: no-repeat;
+background-position: center;    
 }
+
+
+
 
 footer {
     background: gray;
@@ -114,6 +120,7 @@ footer {
 .seleccion-titulo{
     display: flex;
     align-items: center;
+    padding: 30px;
 }
 
 .seleccion-titulo p {
@@ -121,4 +128,22 @@ footer {
     font-size: 1.3rem;
 }
 
+.seleccion-titulo img:hover {
+    transform: scale(1.1);
+}
+    
 
+/*galeria*/
+
+.goles-lio{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.goles-lio{
+    transition: all 3s;
+}
