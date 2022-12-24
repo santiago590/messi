@@ -61,6 +61,9 @@ color: brown;
 font-size: 50px;
 }
 
+
+
+
 .article-info{
     padding: 30px;
     display: flex;
@@ -84,8 +87,6 @@ background-image: url(../img/Messi\ modificado.jpg);
 background-repeat: no-repeat;
 background-position: center;    
 }
-
-
 
 
 footer {
@@ -131,7 +132,7 @@ footer {
 .seleccion-titulo img:hover {
     transform: scale(1.1);
 }
-    
+
 
 /*galeria*/
 
@@ -147,3 +148,22 @@ footer {
 .goles-lio{
     transition: all 3s;
 }
+
+h1 {
+    color: blue;
+}
+
+/*mobile first*/
+/*breakpoints: puntos de quiebre*/
+@media (min-width: 320px) {
+    h1{
+      
+      
+        color:chocolate;
+    }
+    }
+    @media (min-width: 768px) {
+        h1{
+            color:greenyellow;
+        }
+    } 
